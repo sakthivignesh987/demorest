@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
 public class StudentResource {
 
 	StudentDAO repo = new StudentDAO();
-
+//Get Request
 	@GET
 	@Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
 	public List<Student> getStudents() throws SQLException {
